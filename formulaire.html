@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mon Premier Formulaire</title>
+</head>
+<body>
+
+	<h1>Votre Avis Nous Intéressé</h1><br>
+
+	<table  border="0" width="100%" >
+    <td>
+	<form>
+		<fieldset>
+			<legend>
+				Information Personnelles
+			</legend>
+			<ol>
+			<li>
+			<label for="Nom">Nom :</label>
+			<input id="Nom" required type="text" name="">
+			</li>
+			<li>
+			<label for="Date de naissance">Date de naissance :</label>
+			<input id="Date de naissance" required type="date" name="">
+			</li>
+			<li>
+			<label for="Site">Site :</label>
+			<input id="Site" required type="Site" name="" placeholder="cs.univ-batna2.dz">
+			</li>
+			<li>
+			<label for="Emploi">Emploi :</label>
+			<input id="Emploi" required type="Emploi" name="" >
+			</li>
+			<li>
+			<label for="Approx. Salaire annuel">Approx. Salaire annuel :</label><br>
+			<input min ="0" id="Approx" required type="number" name="" placeholder="$">
+			</li>
+			</ol>
+		</fieldset>
+	
+	</form>
+	</td>
+	<td>
+	<form>
+		
+		<fieldset>
+			<legend>
+				Information de Contact
+			</legend>
+			<ol>
+			<li>
+			<label for="Adresse">Adress ligne 1 :</label>
+			<br>
+			<input id="Adress ligne 1" required type="Adress" name="">
+			</li>
+			<li>
+			<label for="Adresse">Adress ligne 2 :</label>
+			<br>
+			<input id="Adress ligne 2" required type="Adress" name="">
+			</li>
+			<li>
+			<label for="Pays">Pays :</label>
+			<input id="Pays" required type="text" name="" >
+			</li>
+			<li>
+			<label for="Telephone">Tel :</label>
+			<input id="Tel" required type="tel" name="" placeholder="eg : +213 67...">
+			</li>
+			<li>
+			<label for="courriel">Courriel :</label>
+			<input id="courriel" required type="email" name="" placeholder="...@...">
+			</li>
+			</ol>
+		</fieldset>
+		
+		</form>
+		</td>
+		</table>
+
+		<h1>
+		Préférence
+	    </h1><br>
+	    <div>
+	    <label for="Couleur">Choisir une couleur :</label>
+	    <input required type="color" id="col" name="" value="black"><br><br>
+	    </div>
+	    <div>
+	    <label for="range">Sur une echelle de 1 a 10, quel est votre degre d'enthousiasme pour HTML5 ? :</label>
+	    <input min="1" max="10" required type="range" id="range" name="" ><br><br>
+	    <input type="submit" value="Submit">
+	    </div>
+	    
+</body>
+</html>
